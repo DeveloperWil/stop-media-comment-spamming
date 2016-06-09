@@ -2,7 +2,7 @@
 Contributors: developerwil
 Tags: Stop Comment Spam,Stop Media Comment Spam,Stop Media Comments,Remove Media Comments,Remove Attachment Comments
 Requires at least: 2.8
-Tested up to: 4.4
+Tested up to: 4.5.2
 Stable tag: Trunk
 
 Stops media comment spamming by removing the ability to comment on attachments.
@@ -32,7 +32,7 @@ If only there was a plugin that allowed you to stop visitors leaving comments on
 Ta da!  Here's one.
 
 = Plugin Page =
-[Stop Media Comment Spamming](http://www.limecanvas.com/stopping-wordpress-media-attachment-comment-spamming/ "Stop Media Commpent Spamming WordPress Plugin")
+[Stop Media Comment Spamming](https://zeropointdevelopment.com/stopping-wordpress-media-attachment-comment-spamming/ "Stop Media Commpent Spamming WordPress Plugin")
 
 == Installation ==
 
@@ -56,6 +56,9 @@ Nope.
 2. After plugin has been activated.  Comments on attachments disappear.
 
 == Changelog ==
+
+= 1.6 =
+* Checked compatibility with WordPress 4.5.2
 
 = 1.5 =
 * Checked compatibility with WordPress 4.4
