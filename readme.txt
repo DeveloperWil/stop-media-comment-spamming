@@ -1,5 +1,5 @@
 === Stop Media Comment Spamming ===
-Contributors: developerwil
+Contributors: DeveloperWil
 Tags: Stop Comment Spam,Stop Media Comment Spam,Stop Media Comments,Remove Media Comments,Remove Attachment Comments
 Requires at least: 2.8
 Tested up to: 4.5.2
