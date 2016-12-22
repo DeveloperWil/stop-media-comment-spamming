@@ -4,7 +4,7 @@
 Plugin Name: Stop Media Comment Spamming
 Plugin URI: https://zeropointdevelopment.com/stopping-wordpress-media-attachment-comment-spamming/
 Description: Stops media comment spamming by removing the ability to comment on attachments.  Other post types are not affected.
-Version: 1.6
+Version: 1.7
 Author: DeveloperWil
 Author URI: https://profiles.wordpress.org/developerwil
 

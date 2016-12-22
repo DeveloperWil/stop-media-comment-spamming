@@ -2,7 +2,7 @@
 Contributors: DeveloperWil
 Tags: Stop Comment Spam,Stop Media Comment Spam,Stop Media Comments,Remove Media Comments,Remove Attachment Comments
 Requires at least: 2.8
-Tested up to: 4.5.2
+Tested up to: 4.7
 Stable tag: Trunk
 
 Stops media comment spamming by removing the ability to comment on attachments.
@@ -56,6 +56,9 @@ Nope.
 2. After plugin has been activated.  Comments on attachments disappear.
 
 == Changelog ==
+
+= 1.7 =
+* Checked compatibility with WordPress 4.7
 
 = 1.6 =
 * Checked compatibility with WordPress 4.5.2
