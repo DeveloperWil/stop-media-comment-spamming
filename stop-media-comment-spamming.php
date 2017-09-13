@@ -4,11 +4,11 @@
 Plugin Name: Stop Media Comment Spamming
 Plugin URI: https://zeropointdevelopment.com/stopping-wordpress-media-attachment-comment-spamming/
 Description: Stops media comment spamming by removing the ability to comment on attachments.  Other post types are not affected.
-Version: 1.7
+Version: 1.8.0
 Author: DeveloperWil
 Author URI: https://profiles.wordpress.org/developerwil
 
-    Copyright © 2016 Zero Point Development.  zeropointdevelopment.com
+    Copyright © 2016 Zero Point Development.  (https://zeropointdevelopment.com/)
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -32,20 +32,20 @@ Author URI: https://profiles.wordpress.org/developerwil
  * @param $post_id
  * @return bool
  */
-function lc_stop_media_comments( $open, $post_id ) {
+function zpd_stop_media_comments( $open, $post_id ) {
   $post = get_post( $post_id );
   if ( 'attachment' == $post->post_type )
     $open = false;
   return $open;
 }
-add_filter( 'comments_open', 'lc_stop_media_comments', 10, 2 );
+add_filter( 'comments_open', 'zpd_stop_media_comments', 10, 2 );
 
 
 /**
  * Temporarily disable comments for the current post
  * This is used to get around non-native WordPress plugins
  */
-function lc_turn_attachment_comments_off(){
+function zpd_turn_attachment_comments_off(){
     global $post;
     if( is_object( $post ) && !is_null( $post ) ) {
         if ('attachment' == $post->post_type) {
@@ -53,4 +53,4 @@ function lc_turn_attachment_comments_off(){
         }
     }
 }
-add_filter('get_header', 'lc_turn_attachment_comments_off');
+add_filter('get_header', 'zpd_turn_attachment_comments_off');
