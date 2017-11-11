@@ -3,7 +3,7 @@ Contributors: DeveloperWil
 Tags: Stop Comment Spam,Stop Media Comment Spam,Stop Media Comments,Remove Media Comments,Remove Attachment Comments
 Requires at least: 2.8
 Requires PHP: 5.6
-Tested up to: 4.8.1
+Tested up to: 4.9
 Stable tag: 1.8.0
 
 Stops media comment spamming by removing the ability to comment on attachments.
