@@ -3,8 +3,8 @@ Contributors: DeveloperWil
 Tags: Stop Comment Spam,Stop Media Comment Spam,Stop Media Comments,Remove Media Comments,Remove Attachment Comments
 Requires at least: 5.2
 Requires PHP: 5.6
-Tested up to: 5.9
-Stable tag: 1.8.2
+Tested up to: 6.0
+Stable tag: 1.8.3
 
 Stops media comment spamming by removing the ability to comment on attachments.
 
@@ -57,6 +57,9 @@ Nope.
 2. After plugin has been activated.  Comments on attachments disappear.
 
 == Changelog ==
+= 1.8.3 =
+* Tested on WordPress 6.0
+
 = 1.8.2 =
 * Tested on WordPress 5.6
 
