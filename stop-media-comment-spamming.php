@@ -7,6 +7,8 @@ Description: Stops media comment spamming by removing the ability to comment on 
 Version: 1.8.3
 Author: DeveloperWil
 Author URI: https://profiles.wordpress.org/developerwil
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
     Copyright © 2016 Zero Point Development.  (https://zeropointdevelopment.com/)
 
